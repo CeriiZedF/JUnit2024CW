@@ -17,5 +17,7 @@ public class App
 
         System.out.println(calculate.summa());
 
+
+
     }
 }

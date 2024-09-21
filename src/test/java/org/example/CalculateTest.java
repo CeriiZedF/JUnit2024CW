@@ -35,7 +35,7 @@ public class CalculateTest {
     void summaWithParameters_ShouldReturnSum_WhenCalled() {
         int expected = 30;
         int actual = calculate.summaWithParameters(10, 20);
-        assertEquals(expected, actual, "Sum of 10 and 20 should be 30");
+        assertEquals(expected, actual, "Sum of 10 and 20 sshould be 30");
     }
 
     @Test
@@ -44,7 +44,7 @@ public class CalculateTest {
         calculate.setOper2(20);
         double expected = 30.33;
         double actual = calculate.summaDouble();
-        assertEquals(expected, actual, 0.01, "SummaDouble should be 30.33");
+        assertEquals(expected, actual, 0.01, "SummaDoublew should be 30.33");
     }
 
     @Test
@@ -60,6 +60,6 @@ public class CalculateTest {
         calculate.setOper2(2);
         int expected = 5;
         int actual = calculate.div();
-        assertEquals(expected, actual, "Division of 10 by 2 should be 5");
+        assertEquals(expected, actual, "Divisiona of 10 by 2 should be 5");
     }
 }
